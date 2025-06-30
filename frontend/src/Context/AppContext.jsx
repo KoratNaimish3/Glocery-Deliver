@@ -4,7 +4,7 @@ import { dummyProducts } from "../assets/assets";
 import { toast } from 'react-hot-toast'
 import axios from "axios"
 
-axios.defaults.baseURL = "https://greencart-backend-pvld.onrender.comhttps://greencart-backend-pvld.onrender.com"
+axios.defaults.baseURL = "https://greencart-backend-pvld.onrender.com"
 axios.defaults.withCredentials = true //send cookie to api request
 
 export const AppContext = createContext()
